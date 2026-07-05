@@ -1,2 +1,4 @@
-# microBSL---Micro-Bonezegei-Scripting-Language
+# mBSL
+### Micro-Bonezegei-Scripting-Language
+
 Bonezegei Scripting Language for Microcontrollers
