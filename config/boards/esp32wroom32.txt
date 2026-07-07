@@ -1,1 +1,35 @@
 HIGH = 1, LOW = 0, OUTPUT = 3, INPUT = 4
+// =========================================================
+// mBSL Target Configuration: ESP32 WROOM-32
+// =========================================================
+
+// ---------------------------------------------------------
+// CONSTANTS (Accessible in mBSL script like normal variables)
+// Format: constant:NAME=VALUE;
+// ---------------------------------------------------------
+constant:HIGH=1;
+constant:LOW=0;
+constant:INPUT=4;
+constant:OUTPUT=3;
+constant:INPUT_PULLUP=5;
+constant:INPUT_PULLDOWN=8;
+
+// ESP32 Specific Constants
+constant:WIFI_STA=1;
+constant:WIFI_AP=2;
+constant:LED_BUILTIN=2;
+
+
+// ---------------------------------------------------------
+// FUNCTIONS (No Parameters)
+// Format: function:name,opcode;
+// ---------------------------------------------------------
+// 0x50 - millis
+function:millis,0x50;
+
+// ---------------------------------------------------------
+// FUNCTIONS (With Parameters)
+// Format: function:name,opcode,arg1_size,arg2_size...;
+// Available argument sizes: emit8, emit32
+// ---------------------------------------------------------
+function:analogWrite,0x50;emit8
