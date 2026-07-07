@@ -1,4 +1,3 @@
-HIGH = 1, LOW = 0, OUTPUT = 3, INPUT = 4
 // =========================================================
 // mBSL Target Configuration: ESP32 WROOM-32
 // =========================================================
@@ -19,7 +18,6 @@ constant:WIFI_STA=1;
 constant:WIFI_AP=2;
 constant:LED_BUILTIN=2;
 
-
 // ---------------------------------------------------------
 // FUNCTIONS (No Parameters)
 // Format: function:name,opcode;
@@ -32,4 +30,4 @@ function:millis,0x50;
 // Format: function:name,opcode,arg1_size,arg2_size...;
 // Available argument sizes: emit8, emit32
 // ---------------------------------------------------------
-function:analogWrite,0x50;emit8
+function:analogWrite,0x50,emit8;
