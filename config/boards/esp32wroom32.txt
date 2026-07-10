@@ -30,4 +30,4 @@ function:millis,0x50;
 // Format: function:name,opcode,arg1_size,arg2_size...;
 // Available argument sizes: emit8, emit32
 // ---------------------------------------------------------
-function:analogWrite,0x50,emit8;
+function:analogWrite,0x50,emit8,emit32;
