@@ -1,5 +1,6 @@
 {
     "title": "HelloWorld",
-    "description" : "print funtion",
-    "boards": ["esp32wroom32", "esp32s3"]
+    "description" : "Print Hello World on Serial",
+    "category": "Syntax",
+    "boards": "all"
 }
