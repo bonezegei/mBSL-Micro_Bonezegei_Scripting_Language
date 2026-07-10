@@ -1,0 +1,4 @@
+{
+    "title": "Builtin LED blink", 
+    "boards": ["esp32wroom32", "esp32s3"]
+}
