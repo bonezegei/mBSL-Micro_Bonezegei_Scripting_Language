@@ -1,0 +1,5 @@
+{
+    "title": "HelloWorld",
+    "description" : "print funtion",
+    "boards": ["esp32wroom32", "esp32s3"]
+}
